@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#swess-home {
+    div,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    ul,
+    li,
+    span,
+    p,
+    label {
+        font-family: 'Almarai', sans-serif !important;
+        transition-duration: 0.2s;
+        // font-family: 'Roboto', sans-serif;
+    }
+    .w-100 {
+        width: 100% !important
+    }
+    .w-75 {
+        width: 75% !important
+    }
+    .w-50 {
+        width: 50% !important
+    }
+    .w-25 {
+        width: 25% !important
+    }
+    .mw-85px {
+        width: 85px !important
+    }
+    .slide-up {
+        top: -150px;
+    }
+    .slide-down {
+        top: 0px;
+    }
+    .visible {
+        visibility: visible !important;
+    }
+    .invisible {
+        visibility: hidden !important;
+    }
+    .opacity-1 {
+        opacity: 1 !important;
+    }
+    .cursor-pointer {
+        cursor: pointer !important;
+    }
+    .border-transparent {
+        border-color: transparent !important;
+    }
+
+    .v-text-field .v-label {
+        overflow: visible;
+        font-size: 14px;
+    }
+    .v-label {
+        display: block !important;
+    }
+    .form-slider .v-input__slot {
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+    .custom-radio input{
+        opacity: 1;
+    }
+}
